@@ -1,2 +1,2 @@
 # DOM-2026
- Aquí van los archivos de DOM
+ Aquí van los archivos de DOM con Javascript
