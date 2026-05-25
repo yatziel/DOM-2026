@@ -48,6 +48,14 @@ console.log(parrafos[1].innerText);
     document.getElementById("id");
     document.getElementsByClassName("clase");
 
+    document.querySelector("nombreSelector"); 👉 Seleccionar la primera coincidencia de un id, clase o etiqueta.
+
+    document.querySelectorAll("nombreSelector"); 👉 Seleccionar todas las coincidencias de un id, clase o etiqueta.
+
+    "main" 👉 el nombre de la etiqueta como esta escrito en el html.
+    "#id" 👉 el id lleva un numeral antes del nombre.
+    ".clase" 👉 la clase lleva un punto antes del nombre.
+
 */
 
 const contenedor = document.getElementById("principal");
@@ -67,3 +75,31 @@ let lista = document.getElementsByClassName("bala");
 console.log(lista);
 console.log(lista[2].innerText);
 
+let main = document.querySelector("main");
+console.log(main);
+
+let sections = document.querySelectorAll("section");
+console.log(sections)
+
+let principal = document.querySelector("#principal");
+console.log(principal);
+
+let balas = document.querySelectorAll(".bala");
+console.log(balas)
+
+/* 
+
+  Nodo de Texto
+
+  Las propiedades que permiten acceder al contenido de los elementos del html
+
+  .innerText
+  .textContent
+
+*/
+
+const headline = document.querySelector("#titulo");
+console.log(headline);
+console.log(headline.innerText);
+console.log(headline.textContent);
+console.log(headline.innerHTML); // También devuelve las etiquetas de html
