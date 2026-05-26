@@ -1,0 +1,9 @@
+body {
+  background-color: darkslateblue;
+  color: white;
+}
+
+.titulo {
+  color: chartreuse;
+  font-family: sans-serif; 
+}

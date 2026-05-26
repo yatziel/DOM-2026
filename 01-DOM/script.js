@@ -102,4 +102,4 @@ const headline = document.querySelector("#titulo");
 console.log(headline);
 console.log(headline.innerText);
 console.log(headline.textContent);
-console.log(headline.innerHTML); // También devuelve las etiquetas de html
+console.log(headline.innerHTML); // También devuelve las etiquetas de htmlf
